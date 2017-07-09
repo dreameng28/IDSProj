@@ -1,14 +1,20 @@
+# 各种文件路径
 csv_file_path = '/Users/dreameng/Desktop/20170524094514.csv'
 relevant_ip_path = 'relevant_ips/'
 data_info_path = 'data_info/'
 sentence_path = data_info_path + 'sentence.pkl'
+ip_sentence_path = data_info_path + 'sentence_ip.pkl'
 theme2int_path = data_info_path + 'theme2int_path.pkl'
 int2theme_path = data_info_path + 'int2theme_path.pkl'
 sequences_path = data_info_path + 'sequences_path.pkl'
 next_words_path = data_info_path + 'next_words_path.pkl'
+ip_sequences_path = data_info_path + 'ip_sequences_path.pkl'
+next_src_des_ips_path = data_info_path + 'next_src_des_ips_path.pkl'
 model_path = 'models/'
 result_path = 'results/'
+test_data_path = data_info_path + 'test_data_path.pkl'
 
+# IDS日志列名
 company_name = '单位名称'
 equipment_name = '设备名称'
 equipment_type = '设备类型'
@@ -28,4 +34,6 @@ theme = '主题'
 order_num = '序号'
 event_response = '返回参数信息'
 
+# 程序配置信息
 MAX_SENTENCE_LEN = 10
+MAX_IP_SENTENCE_LEN = 20
